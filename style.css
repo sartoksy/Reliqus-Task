@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.initial{
+    height: 30px;
+    max-width: 1920px;
+    margin: 0 auto;
+    background-color: rgb(3, 38, 85);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+header{
+    height: 60px;
+    max-width:1920px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;position: relative;
+    top: 30px;
+
+}
+header>ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header>ul>li{
+    margin: 0 25px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+
+}
+header>ul>li:nth-child(6)>button{
+    height: 40px;
+    width: 95px;
+    border-radius: 45px;
+    padding: 8px 20px;
+}
+.main{
+    margin: 0 auto;
+    height: 800px;
+    max-width: 1920px;
+    background-image: url(public/images/rectangle-1.png);
+}
+.text{
+    height: 160px;
+    width: 800px;
+    color: white;
+    position: relative;
+    top: 40%;
+    left: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+.text>h1{
+    font-size: 70px;
+    font-family: 'Playfair Display', sans-serif;
+    margin-bottom: 20px;
+}
+.text>p{
+     font-family: 'Poppins', sans-serif;
+     font-size: 20px;
+}
+.services{
+    margin: 0 auto;
+    height:840px;
+    max-width: 1920px;
+    
+    position: relative;
+}
+.service-text{
+    height: 210px;
+    max-width: 1920px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+    font-family: 'Playfair Display', sans-serif;
+
+}
+.row{
+    height: 570px;
+    max-width: 1920px;
+    margin: 0 auto;
+    
+    display: flex;
+    justify-content: space-around;
+}
+.img{
+    height: 440px;
+    width: 360px;
+    
+}
+.img>img{
+    width: 100%;
+}
+.img-text{
+    width: 100%;
+    height: 110px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.img-text>p{
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+}
+.img-text>p:nth-child(2){
+    color: rgb(9, 9, 146);
+}
+.img-text>p:nth-child(3)>a{
+    display: inline-block;
+    height: 40px;
+    width: 110px;
+    padding: 4px;
+    border: 2px solid rgb(9, 9, 146);
+    text-decoration: none;
+}
+.view-all{
+    position: absolute;
+    top: 82%;
+    left: 45%;
+}
+.view-all>button{
+    height: 44px;
+    width: 150px;
+    border: 2px solid rgb(9, 9, 146);
+    color: rgb(9, 9, 146);
+    font-family: 'Playfair Display', sans-serif;
+}
+.last{
+    height: 800px;
+    max-width: 1920px;
+    margin: 0 auto;
+    background-image: url(public/images/rectangle-101.png);
+    display: flex;
+    align-items: end;
+}
+.wrap{
+    height: 90%;
+    width: 50%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+}
+.harry-wilson{
+    height: 300px;
+    width: 300px;
+}
+.margin{
+    height: 200px;
+    margin-left: 185px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.margin>p:nth-child(2){
+    font-family: 'Poppins', sans-serif;
+    margin-right: 10px;
+}
+.margin>p:last-child{
+    color: rgb(128, 119, 119)
+}
+.margin>h1{
+    font-family: 'Playfair Display', sans-serif;
+    margin-bottom: 10px;
+}
+.harry-button>button{
+    height: 40px;
+    width: 150px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: rgb(9, 9, 146);
+    border: 2px solid rgb(9, 9, 146);
+
+}
+.last>div:nth-child(2){
+    background-color: rgb(3, 38, 85);
+    padding-top: 60px;
+    padding-left: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    color: white;
+}
+.last>div:nth-child(2)>div>input{
+    height: 40px;
+    width: 500px;
+    background: transparent;
+    border: 2px solid white;
+}
+.last>div:nth-child(2)>div:nth-child(5)>input{
+    height: 200px;
+}
+.last>div:nth-child(2)>h2{
+    font-size: 40px;
+    font-family: 'Playfair Display', sans-serif;
+}
+.last>div:nth-child(2)>div>label{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.last>div:nth-child(2)>button{
+    height: 40px;
+    width: 100px;
+    color: white;
+    background: transparent;
+    border: 2px solid white;
+}
